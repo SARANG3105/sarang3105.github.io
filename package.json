@@ -1,0 +1,22 @@
+{
+  "name": "sarang3105.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "repository": "https://github.com/SARANG3105/sarang3105.github.io",
+  "author": "Sarangdeep Singh <sarangdeep.singh93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build":"webpack --watch",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "live-server": "^1.2.0",
+    "npm": "^5.8.0",
+    "webpack": "3.1.0"
+  }
+}
