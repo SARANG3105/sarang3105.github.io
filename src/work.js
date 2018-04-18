@@ -36,8 +36,8 @@ class Work extends React.Component{
                  </div>
            
         );
-    }
-}
+    };
+};
 
 
 export default Work;

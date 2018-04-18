@@ -26097,6 +26097,8 @@ var About = function (_React$Component) {
     return About;
 }(_react2.default.Component);
 
+;
+
 exports.default = About;
 
 /***/ }),
@@ -26318,6 +26320,8 @@ var Work = function (_React$Component) {
 
     return Work;
 }(_react2.default.Component);
+
+;
 
 exports.default = Work;
 
