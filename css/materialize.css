@@ -5569,9 +5569,19 @@ button.btn-floating {
   padding: 0 28px;
 }
 
-.card.card-image img{
-height:300px;
-width:400px;
+.link-project a{
+	padding-left:10px;
+	transition:0.5s ease;
+}
+.link-project a:hover{
+	font-size:20px;
+}
+.card{
+	height: 350px;
+}	
+.card .card-image .activator{
+height:200px;
+width:300px;
 }
 .btn-large i {
   font-size: 1.6rem;
