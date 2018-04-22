@@ -5569,6 +5569,10 @@ button.btn-floating {
   padding: 0 28px;
 }
 
+.card.card-image img{
+height:300px;
+width:400px;
+}
 .btn-large i {
   font-size: 1.6rem;
 }
