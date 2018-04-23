@@ -2828,14 +2828,17 @@ video.responsive-video {
 	border: 6px solid #669999;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.card-content .name-proj{
+	
+	font-family: "Raleway";
+	text-align:left;
+}
 @media only screen and (max-width: 992px){
-.my-img{
-	width: 110px;
-	height: 110px;
-	margin-right: 100px;
-	border-radius: 25px;
-	border: 6px solid #669999;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.huhu{
+	display:block;
+	position:absolute;
 }
 }
 
@@ -5632,14 +5635,17 @@ button.btn-floating {
 .link-project a:hover{
 	font-size:20px;
 }
+
 }
+
 .card{
 	height: 350px;
 }	
 .card .card-image .activator{
 height:200px;
-width:300px;
+width:100%;
 }
+@@
 .btn-large i {
   font-size: 1.6rem;
 }
