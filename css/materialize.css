@@ -2835,8 +2835,9 @@ video.responsive-video {
 }
 
 @media only screen and (max-width: 992px){
-.icon-block{
-	margin: auto;
+.my-img{
+	margin-left:80%;
+	padding-bottom: 0px;
 }
 .huhu{
 	
