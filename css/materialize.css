@@ -2787,6 +2787,12 @@ video.responsive-video {
 	  
 	  
   }
+  .card-content .designation{
+	  width: 100%;
+  }
+  .card-content .designation2{
+	width:100%;
+  }
 }
 
 .breadcrumb {
@@ -2822,7 +2828,16 @@ video.responsive-video {
 	border: 6px solid #669999;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+@media only screen and (max-width: 992px){
+.my-img{
+	width: 110px;
+	height: 110px;
+	margin-right: 100px;
+	border-radius: 25px;
+	border: 6px solid #669999;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+}
 
 .breadcrumb:first-child:before {
   display: none;
@@ -5613,8 +5628,10 @@ button.btn-floating {
 	padding-left:10px;
 	transition:0.5s ease;
 }
+@media only screen and (min-width: 992px){
 .link-project a:hover{
 	font-size:20px;
+}
 }
 .card{
 	height: 350px;

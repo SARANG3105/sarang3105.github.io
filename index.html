@@ -15,24 +15,13 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <script language="javascript">
- $(document).ready(function(){
-	   $('.button-collapse').sideNav({
-		  menuWidth: 300, // Default is 240
-		  closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-		}
-	  );
-	  $('.collapsible').collapsible();
-  });
- </script>
+	 
 
 
 </head>
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
- $('.button-collapse').sideNav();
-</script>
+
 
 <div class="navbar-fixed"  id="start">
   <nav class="white" role="navigation">
@@ -50,7 +39,7 @@
     </div>
   </nav>
 </div>
-<ul id="nav-mobile" class="collapsible sidenav">
+<ul id="nav-mobile" class="sidenav">
         <li><a id="a" href="#about">About</a></li>
 		<li><a href="#education">Education</a></li>
 		<li><a href="#work">Work</a></li>
@@ -157,7 +146,7 @@ fa-2x"></i></a></li>
         <div class="card-content">
 		<p class="title-org">Rayat Bahra University</p>
           <p class="designation">Bachelors in Electronics and Computer Science</p>
-		   <p class="designation2">January 2011-May 2015</p>
+		   <p class="designation2 inner">January 2011-May 2015</p>
         </div>
      
       </div>
@@ -416,9 +405,12 @@ fa-2x"></i></a></li>
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+ $('.button-collapse').sideNav('hide');
+</script>
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
