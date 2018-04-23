@@ -5627,17 +5627,20 @@ button.btn-floating {
   padding: 0 28px;
 }
 
-.link-project a{
-	padding-left:10px;
+.link-project{
+	width:20%;
 	transition:0.5s ease;
+	text-align:left;
 }
 @media only screen and (min-width: 992px){
-.link-project a:hover{
+.link-project:hover{
 	font-size:20px;
 }
 
 }
-
+.material-icons.right:hover{
+	z-index:4;
+}
 .card{
 	height: 350px;
 }	

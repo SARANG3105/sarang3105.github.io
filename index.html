@@ -259,7 +259,7 @@ fa-2x"></i></a></li>
     </div>
     <div class="card-content">
 	<p class="name-proj">Grievance Addressal System</p>
-      <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4"><i class=" mdl-color-text--blue-grey-400 material-icons right">more_vert</i></span>
     
 	  <p  class="link-project"><a href="#">Explore</a></p>
     </div>
@@ -315,8 +315,9 @@ fa-2x"></i></a></li>
     <div class="card-content">
 	<p class="name-proj">UNCC Routes</p>
       <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
-    
-	  <p  class="link-project"><a href="#">Explore</a></p>
+    <span class="link-project">
+	  <p><a href="#">Explore</a></p>
+	  </span>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">UNCC Routes<i class="material-icons right">close</i></span>
@@ -432,7 +433,7 @@ $(document).ready(function(){
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area   
 	 $('html, body').animate({ 
         scrollTop: ($(hash).offset().top)
-      }, 500, function(){
+      }, 700, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
