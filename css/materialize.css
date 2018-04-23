@@ -1086,7 +1086,9 @@
 .teal.accent-4 {
   background-color: #00bfa5 !important;
 }
-
+.section.icon-block.hey{
+	font-size:20px;
+}
 .teal-text.text-accent-4 {
   color: #00bfa5 !important;
 }
@@ -2976,7 +2978,7 @@ ul.staggered-list li {
 .page-footer .footer-copyright {
 	background-color:#8c8984;
   overflow: hidden;
-  min-height: 50px;
+  min-height: 120px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4571,7 +4573,38 @@ h1 {
   line-height: 110%;
   margin: 2.8rem 0 1.68rem 0;
 }
-
+.card.horizontal{
+	width: 100%;
+	height: 100%;
+}
+.card.horizontal .new{
+	overflow:hidden;
+	 -moz-border-radius:25px;
+    -webkit-border-radius: 25px;
+	margin:40px;
+	width:120px;
+	height:120px;
+	border-radius: 25px;
+	border: 6px solid #669999;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.3s ease;
+}
+.card-content .designation{
+	font-family:"Libre Baskerville";
+	float:left;
+width:70%
+}
+.card-content .designation2{
+	font-family:"Libre Baskerville";
+	float:right;
+width:30%
+}
+.card-content .title-org{
+	font-family:"Raleway";
+	
+	font-size:25px;
+	font-weight:800px;
+}
 h2 {
   font-size: 3.56rem;
   line-height: 110%;
