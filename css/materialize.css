@@ -2781,6 +2781,12 @@ video.responsive-video {
     overflow: hidden;
     white-space: nowrap;
   }
+  .row .huhu .icon-block{
+	 display:block;
+	 overflow:hidden;
+	  
+	  
+  }
 }
 
 .breadcrumb {
@@ -4601,7 +4607,7 @@ width:30%
 }
 .card-content .title-org{
 	font-family:"Raleway";
-	
+	padding-top:15px;
 	font-size:25px;
 	font-weight:800px;
 }
@@ -4938,9 +4944,10 @@ small {
 
 .card .card-image {
   position: relative;
+  
 }
 
-.card .card-image img {
+.card .img {
   display: block;
   border-radius: 2px 2px 0 0;
   position: relative;
