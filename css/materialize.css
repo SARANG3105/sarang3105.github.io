@@ -1017,6 +1017,7 @@
 
 .teal-text.text-lighten-2 {
   color: #FFFFFF !important;
+  font-size:4em;
 }
 
 .teal.lighten-1 {
@@ -2186,7 +2187,7 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
+  font-size: 20px;
   margin: 0.67em 0;
 }
 
@@ -4657,7 +4658,7 @@ h4 {
 }
 
 h5 {
-  font-size: 2.64rem;
+  font-size: 2rem;
   line-height: 110%;
   margin: 1.0933333333rem 0 0.656rem 0;
 }
