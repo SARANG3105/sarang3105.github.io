@@ -2837,7 +2837,7 @@ width:90%;
 
 @media only screen and (max-width: 640px){
 .my-img{
-width:40%;
+width:60%;
 	border-radius: 50%;
 	border: 6px solid #669999;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -2884,15 +2884,20 @@ margin-left:-5px;
   bottom: 0;
   z-index: -1;
 }
-
+@media only screen and (max-width: 650px) {
+	
+  .parallax-container .parallax img {
+ 
+ width: 180%;
+}
+}
 .parallax-container .parallax img {
   opacity: 0;
   margin:40px;
   position: absolute;
   left: 50%;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(-50%);
