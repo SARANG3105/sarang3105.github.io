@@ -2887,8 +2887,7 @@ margin-left:-5px;
 @media only screen and (max-width: 650px) {
 	
   .parallax-container .hala img {
-
- width: 200%;
+	width: 200%;
 }
 }
 .parallax-container .parallax img {
