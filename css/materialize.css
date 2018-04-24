@@ -2835,15 +2835,20 @@ video.responsive-video {
 }
 
 @media only screen and (max-width: 992px){
-.my-img{
-	margin-left:80%;
-	padding-bottom: 0px;
+.icon-block{
+
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 30%;
 }
 .huhu{
 	
 	display:block;
 	position:relative;
 }
+
+
 }
 
 .breadcrumb:first-child:before {
