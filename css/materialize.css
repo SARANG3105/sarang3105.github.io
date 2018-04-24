@@ -2886,12 +2886,12 @@ margin-left:-5px;
 }
 @media only screen and (max-width: 650px) {
 	
-  .parallax-container .parallax img {
+  .parallax-container .hala img {
 
  width: 200%;
 }
 }
-.parallax-container .hala img {
+.parallax-container .parallax img {
   opacity: 0;
   margin:40px;
   position: absolute;
