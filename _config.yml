@@ -1,2 +1,4 @@
-plugins:
-  - jekyll-seo-tag
+title:Sarangdeep Singh
+author:sarang3105
+email:sarangdeep.singh93@gmail.com
+plugins:- jekyll-seo-tag
