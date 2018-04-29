@@ -5087,9 +5087,17 @@ small {
   display: none;
 }
 
+.card .card-reveal .mah{
+	font-family: sans-serif;
+	font-size:14px;
+	text-align:justify;
+}
+
 .card .card-reveal .card-title {
-  cursor: pointer;
-  display: inline-block;
+	font-family: "Raleway";
+	font-size:16px;
+	cursor:pointer;
+	text-align:left;
 }
 
 #toast-container {
